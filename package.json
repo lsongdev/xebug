@@ -1,6 +1,28 @@
 {
   "name": "xebug",
   "version": "0.1.0",
+  "description": "A lightweight, zero-dependency in-browser debugging tool that runs entirely in the client. No build step, no server required — just drop a script tag and start debugging.",
+  "keywords": [
+    "debugger",
+    "devtools",
+    "mobile"
+  ],
+  "homepage": "https://github.com/lsongdev/xebug#readme",
+  "bugs": {
+    "url": "https://github.com/lsongdev/xebug/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lsongdev/xebug.git"
+  },
+  "license": "MIT",
+  "author": "lsongdev",
   "type": "module",
-  "private": true
+  "main": "init.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "start": "python3 -m http.server"
+  }
 }
